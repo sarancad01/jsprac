@@ -91,7 +91,7 @@ var text= "welcome to welcome javascript program organized by brightskills and b
 console.log(text.length);
 console.log(text.indexOf("you",5));
 
-*/
+
 
 let today= new Date();
 
@@ -103,4 +103,58 @@ console.log(today.toDateString());
 console.log(today.getMonth());
 console.log(today.toLocaleString());
 console.log(today.getMilliseconds());
-console.log(today.)
+
+*/
+
+
+/*
+    var namelist
+    =["karthick", "kavin", "kayal", "ragu", "mani", "harsh", "anand", "basheer"];   
+    
+    console.log(namelist);
+    console.table(namelist);
+
+     console.table(namelist[0]);
+     console.table(namelist[1]);
+    // console.table(namelist[2]);
+    // console.table(namelist[3]);
+    // console.table(namelist[4]);
+
+
+
+var namelist
+=["karthick", "kavin", "kayal", "ragu", "mani", "harsh", "anand", "basheer"];   
+
+console.log(namelist);
+ console.table(namelist);
+ console.table(namelist[0]);
+ console.table(namelist[1]);
+ console.table(namelist[2]);
+ console.table(namelist[3]);
+ console.table(namelist[4]);
+
+
+
+var text= "welcome to welcome javascript program organized by brightskills and brightskills welcomes you once again";
+
+console.log(text.length);
+console.log(text.indexOf("welcome"));
+console.log(text.indexOf("welcome", 10));
+console.log(text.lastIndexOf("welcome"));
+console.log(text.search("welcome"));
+let arr=text.search(/welcome/);
+console.log(arr);
+let arr1=text.match(/welcome/);
+console.log(arr1);
+let arr11=text.match(/welcome/gi);
+console.log(arr11);
+
+console.log(text.slice(19,29));
+*/
+
+
+
+for (let i=0;i<=5;i++) {
+    console.log("saran");
+}
+
