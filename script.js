@@ -152,9 +152,31 @@ console.log(arr11);
 console.log(text.slice(19,29));
 */
 
-
-
+// for loop
+/*
 for (let i=0;i<=5;i++) {
     console.log("saran");
 }
+
+
+// while loop
+
+// program to display numbers from 1 to 5
+
+let i = 1, n = 5;
+
+while (i <= n) {
+    console.log("srn");
+    i += 1;
+}
+*/
+
+let sum = 0;
+
+let number = parseInt(prompt('Enter a number: '));
+while(number >= 0) {
+    sum += number;
+    number = parseInt(prompt('Enter a number: '));
+}
+console.log(`The sum is ${sum}.`);
 
